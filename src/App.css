@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(140, 140, 248);
+}
+
+.App {
+  text-align: center;
+  box-shadow:  1px 1px 10px rgb(0, 13, 255);
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.success-message{
+  height: 25px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 11px;
+}
+
+.msg{
+  color: red;
+}
+
+.inps{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.inp{
+  height: 25px;
+  width: 250px;
+  margin: 8px;
+  border-radius: 11px;
+  padding: 7px;
+  border: 1px solid rgb(0, 140, 255);
+}
+
+
+
+.btn{
+    height: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+}
+
+.btn:hover{
+  background-color: rgb(66, 66, 249);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
